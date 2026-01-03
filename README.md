@@ -8,4 +8,4 @@
 
 <h2>Tecnologies</h2>
 
-<p>For this journey I'm going to use a Smartphone and Termux (as ainux but in device). If you have a computer Your experience will be more intereting and complete.</p>
+<p>For this journey I'm going to use a Smartphone and Termux (app - as linux but in device). If you have a computer Your experience will be more intereting and complete.</p>
