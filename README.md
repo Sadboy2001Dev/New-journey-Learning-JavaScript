@@ -1,4 +1,4 @@
-<h1 style = "text-align: center; color: blue">New Journey: Learning JavaScript</h1>
+<h1>New Journey : Learning JavaScript</h1>
 
 <p>This repository was created for didactic purposes only. Where I'm going to show each the topic to be addressed and my development as "Beginner" of this new programming language for me.</p>
 
@@ -6,4 +6,6 @@
 
 <p>I'm going to show all my journey in this new language and I hope one day this repository can be used by Beginners and future enthusiasts of Js (JavaScript) as base to give your first steps in this language.</p>
 
-<h2>
+<h2>Tecnologies</h2>
+
+<p>For this journey I'm going to use a Smartphone and Termux (as ainux but in device). If you have a computer Your experience will be more intereting and complete.</p>
