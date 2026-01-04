@@ -14,7 +14,7 @@ For exemple the variable name is different from Name or NAME for JavaScript, and
 <h2>Identifier and Reserved Word</h2>
 
 An identifier is simply a name. In JavaScript, identifiers are used to name variables and functions and to provide labels for certain loops in JavaScript code. A JavaScript identifier must begin with <i> a letter, an underscore (_), or a dollar sign ($)</i>. Subsequent characters can be letters, digits, underscores, or dollar signs. (Digits are not allowed as the
-first character so that JavaScript can easily distinguish identifiers from numbers). <br
+first character so that JavaScript can easily distinguish identifiers from numbers). <br>
 <code>
 // All valid identifiers
 
@@ -63,4 +63,16 @@ let
 const
 class
 </code>
+<br>
 
+<h2>Semicolon</h2>
+
+Many programming languages uses a Semicolon and most of all are required, but use semicolon on JavaScript is option but the semicolon put your meaning of your code clean. I personally don't like to use a semicolon 😅 but in this journey I'm going to used it, to make my code readable and clean😎.<br>
+
+<code>
+// Some examples
+
+let a = 2;
+const name = "Kupessa";
+var b // it is also valid
+</code>
