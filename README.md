@@ -14,7 +14,7 @@
 
 <p>If you are using computer device to learn JavaScript you have to install this tecnologies:</br>
 <ul>
-    <li>A Browser (Firefox, Opera Mini, etc but I recommend to use Chrome</li>
+    <li>A Browser (Firefox, Opera Mini, etc but I recommend to use Chrome)</li>
     <li>A Text/code editor - I hightly recommend Visual Studio Code (VS code)</li>
     <li>A Nodejs</li>
 </ul>
