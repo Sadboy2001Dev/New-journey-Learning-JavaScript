@@ -1,9 +1,9 @@
-<h1>JavaScript Data types</h1>
+<h1>JavaScript Data types </h1>
 
 <p>
-In this chapter II will talk about data types.<br>
-JavaScript types can be divided into two categories: primitive types and object types. <br>
-The list bellow shows the primitives types and objects types upported by JavaScript (ECMAscript):
+In this chapter II I'll talk about data types.<br>
+JavaScript types can be divided in two categories: primitive types and object types. <br>
+The list bellow shows the primitives types and objects types supported by JavaScript (ECMAscript):
 </p>
 
 <ul>
@@ -35,7 +35,7 @@ Any JavaScript value that is not a <strong>number, string, boolean, null and und
 </p>
 
 <p>
-Each data type are going to be approached inside a different file but before lets talk about variables and constante 👍🏾.
+Each data type are going to be approached inside a different file but before lets talk about variables and constants 👍🏾.
 </p>
 
 <h2>Variables and Constants</h2>
@@ -54,6 +54,6 @@ age = null; // changed age variable value 12 to null
 celcius = 32.90 // error constant can't be changed
 </code>
 
-Only variables can change its value. A constante value can't be changed,if you try to change the constant value it'll give you a error so be careful.</br>
+Only variables can change its value. A constant value can't be changed, if you try to change the constant value it'll give you a error so be careful⚠️.</br>
 
-When we want to declare a variable we use the reserved word <i>let</i> or  <i>var</i>, and for <i>constant</i> as we saw in example above.
+When we want to declare a variable we use the reserved word <i>let</i> or  <i>var</i>, and for constant we use the reserved word <i>const</i> as we saw in example above.
