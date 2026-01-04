@@ -35,7 +35,7 @@ Any JavaScript value that is not a number, string, boolean, null and undefined i
 </p>
 
 <p>
-Each data type are going to be approached inside a different diretory but before lets talk about variables and constante 👍🏾.
+Each data type are going to be approached inside a different file but before lets talk about variables and constante 👍🏾.
 </p>
 
 <h2>Variables and Constantes</h2>
