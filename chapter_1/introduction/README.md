@@ -67,7 +67,7 @@ class
 
 <h2>Semicolon</h2>
 
-Many programming languages uses a Semicolon and most of all are required, but use semicolon on JavaScript is option but the semicolon put your meaning of your code clean. I personally don't like to use a semicolon 😅 but in this journey I'm going to used it, to make my code readable and clean😎.<br>
+Many programming languages uses a Semicolon and most of all are required, but use semicolon on JavaScript is optional, but the semicolon makes the meaning of your code clear. I personally don't like to use a semicolon 😅 but in this journey I'm going to used it, to make my code readable and clear😎.<br>
 
 <code>
 // Some examples
@@ -75,4 +75,8 @@ Many programming languages uses a Semicolon and most of all are required, but us
 let a = 2;
 const name = "Kupessa";
 var b // it is also valid
+a++;
+b += ++a;
+console.log (b);
+
 </code>
