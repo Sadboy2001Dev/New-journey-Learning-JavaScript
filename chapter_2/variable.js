@@ -24,3 +24,10 @@ let	Person = {
 	status: 'online'
 };
 console.log (Person)
+
+function double_number (num) {
+	num *= 2;
+	return num;
+};
+
+console.log (double_number (345));
