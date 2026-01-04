@@ -7,7 +7,7 @@ The list bellow shows the primitives types and objects types upported by JavaScr
 </p>
 
 <ul>
-Primitives Types
+<strong>Primitives Types</strong>
     <ol>
         <li>
         Number
@@ -21,7 +21,7 @@ Primitives Types
          <li>Null</li>
          <li>Undefined</li>
     </ol></br>
-Objects Types
+<strong>Objects Types</strong>
     <ol>
         <li>Function</li>
         <li>Object
@@ -31,17 +31,17 @@ Objects Types
 </ul>
 
 <p>
-Any JavaScript value that is not a number, string, boolean, null and undefined is an object.
+Any JavaScript value that is not a <strong>number, string, boolean, null and undefined is an object (as array, function, object, class)</strong>.
 </p>
 
 <p>
 Each data type are going to be approached inside a different file but before lets talk about variables and constante 👍🏾.
 </p>
 
-<h2>Variables and Constantes</h2>
+<h2>Variables and Constants</h2>
 
 <p>
-The data types are stored inside the variables or constance. An example bellow:
+The values that can be represented and manipulated are stored in the variables or constants. An example bellow:
 </p>
 
 <code>
@@ -49,7 +49,11 @@ let age = 12; // variable age declared
 const name = "Gil"; // constante name declared
 var hours = "12:30 min"; // variable hours declared
 let otherNumber = undefined; // variable otherNumber declared
+const celcius = 12.89: // constant celcius declared
 age = null; // changed age variable value 12 to null
+celcius = 32.90 // error constant can't be changed
 </code>
 
-Only variables can change its value. A constante value can't be changed,if you try to change the constante value it'll give you a error so be careful.</br>
+Only variables can change its value. A constante value can't be changed,if you try to change the constant value it'll give you a error so be careful.</br>
+
+When we want to declare a variable we use the reserved word <i>let</i> or  <i>var</i>, and for <i>constant</i> as we saw in example above.
