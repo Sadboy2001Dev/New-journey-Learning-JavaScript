@@ -32,6 +32,10 @@ const	toyota = new Car ('Toyota', '4X4');
 
 console.log (toyota.info ()); // This is a Toyota, model 4X4
 
+toyota = new Car ('Toyota 12', '4x4'); // TypeErro: Assignment to constant variable.
+
+console.log (toyota.info ());
+
 const	runner = {
 	name: 'Carlos',
 	age: 50,

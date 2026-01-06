@@ -31,3 +31,21 @@ function double_number (num) {
 };
 
 console.log (double_number (345));
+
+class	Vehicle {
+	constructor (name, engine) {
+		this.name = name;
+		this.engine = engine;
+	}
+
+	getInfo () {
+		return `${this.name} motor ${this.engine}`;
+	}
+}
+
+let	car = new Vehicle ('Tesla', 'V8');
+
+console.log (car.getInfo ());
+
+car = new Vehicle ('Ford', 'V6');
+console.log (car.getInfo ());
