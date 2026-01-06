@@ -49,3 +49,7 @@ console.log (car.getInfo ());
 
 car = new Vehicle ('Ford', 'V6');
 console.log (car.getInfo ());
+
+let	date = new Date ();
+
+console.log (date); // actual date and time
