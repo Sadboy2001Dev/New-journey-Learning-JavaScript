@@ -37,3 +37,24 @@ let multline = `Line one\
 		line two\
 		line three`;
 console.log (multline)
+
+//	Scape Sequences
+
+let	sentence = "I'm going to change the line\nThis is a new line scape sequence";
+console.log (sentence); // new line -> \n
+
+sentence = "backslash with quote to print \"double quote\" and \'single quote\'";
+console.log (sentence);
+
+sentence = 'Trying to see the \v vertical tab';
+console.log (sentence);
+
+sentence = 'Now I\'m trying to see the\t horizontal tab';
+console.log (sentence);
+
+//	Joing strings
+let	firstSentence = 'Hello';
+let	secondSentence = 'World';
+
+console.log (firstSentence + ' ' + secondSentence);
+console.log ("I" + " " + "joined" + " " + "differents" + " " + "sentences");
