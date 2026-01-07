@@ -95,3 +95,10 @@ let isTeenager = (age) => {
 isTeenager (18); // Isn't a teenager
 isTeenager (12); // Is a teenager
 isTeenager (15); // Is a teenager
+
+let centimeterToMeter = (cm) => cm / 100;
+let meter = centimeterToMeter (1);
+console.log (meter + ' m');
+
+meter = centimeterToMeter (1000);
+console.log (meter + ' m');
