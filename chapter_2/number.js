@@ -38,4 +38,18 @@ let	getNumber = Number ('23'); // converting a string to number
 console.log (getNumber); // 23
 console.log ('23'); // 23 - same output but with little difference (color)
 
+/*
+ 	  NaN and INFINITY
+ -------------------------------------
+JavaScript predefines global variables 
+Infinity and NaN to hold the positive
+(or negative) infinity and
+ not-a-number (NaN) value.
+*/
 
+console.log (num/0); // Infinity (positive)
+console.log (-num / 0); // -Infinity (negative)
+
+num  = num / 0;
+notIsANumber = 0/0;
+console.log (notIsANumber);
