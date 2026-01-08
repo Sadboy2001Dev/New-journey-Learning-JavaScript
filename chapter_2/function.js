@@ -102,3 +102,18 @@ console.log (meter + ' m'); // 0.01 m
 
 meter = centimeterToMeter (100); 
 console.log (meter + ' m'); // 1 m
+
+/*
+ * NOTE: Argument is the value that is
+ * passed in to the function (in place
+ * of parameter).
+ *
+ */
+
+function triploNumber (x) // x: is parameter
+{
+	return x * 3;
+}
+
+let triplo = triploNumber (3) // 3: is argument
+console.log (triplo); // 9
