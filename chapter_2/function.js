@@ -98,7 +98,7 @@ isTeenager (15); // Is a teenager
 
 let centimeterToMeter = (cm) => cm / 100;
 let meter = centimeterToMeter (1);
-console.log (meter + ' m');
+console.log (meter + ' m'); // 0.01 m
 
-meter = centimeterToMeter (1000);
-console.log (meter + ' m');
+meter = centimeterToMeter (100); 
+console.log (meter + ' m'); // 1 m
