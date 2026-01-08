@@ -25,7 +25,7 @@ The list bellow shows the primitives types and objects types supported by JavaSc
     <ol>
         <li>Function</li>
         <li>Object
-            <ul><li>Array</li></ul>
+        <li>Array</li>
         </li>
     </ol>
 </ul>
