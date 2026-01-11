@@ -86,3 +86,14 @@ console.log (!bool);
 bool = false;
 console.log (!bool);
 
+let	state = 0;
+
+if (!state)
+	console.log ("The state was converted");
+else
+	console.log ("The state wasn't converted");
+
+if (!!state)
+	console.log ("The state was converted");
+else
+	console.log ("The state wasn't converted");
