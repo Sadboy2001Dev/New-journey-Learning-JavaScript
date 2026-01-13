@@ -11,5 +11,4 @@ JavaScript programs are nothing more than a sequence of statements to execute. B
     </li>
 </ul>
 
-The sections that follow describe the various statements in JavaScript and explain their
-syntax.</br>
+The sections that follow describe the various statements in JavaScript and explain their syntax.</br>
