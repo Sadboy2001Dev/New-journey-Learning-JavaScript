@@ -4,7 +4,7 @@ The chapter III is reserved to operators: Arithmetics, relacionals, logical and 
 
 Arithmetics operators such as + (addition), - (subtract), * (multiplication) , / (divison) and  % (modulo)</br>
 
-Relacionals operators such as ==, ===, !=, !=== </br>
+Relacionals operators such as ==, ===, !=, !== </br>
 
 Logical operators such as && (AND), || (OR) and ! (NOT) </br>
 
