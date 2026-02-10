@@ -16,3 +16,15 @@ values to compute a return value that becomes the value of the function-invocati
     <li>An identifier that names the function. The name is a required part of function declaration statements: it is used as the name of a variable, and the newly defined function object is assigned to the variable. For function definition expressions, the name is optional: if present, the name refers to the function object only within the body of the function itself.</li>
     <li>A pair of parentheses around a comma-separated list of zero or more identifiers. These identifiers are the parameter names for the function, and they behave like ocal variables within the body of the function.</li>
     <li>A pair of curly braces with zero or more JavaScript statements inside. These statements are the body of the function: they are executed whenever the function is invoked.</li>
+</ul>
+
+<h2>Invoking Functions</h2>
+
+<p>The JavaScript code that makes up the body of a function is not executed when the function is defined but when it is invoked. JavaScript functions can be invoked in four ways:</p>
+
+<ul>
+    <li>as functions<li>
+    <li>as methods</li>
+    <li>as constructors</li>
+    <li>indirectly through their call() and apply() methods</li>
+</ul>
