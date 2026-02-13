@@ -17,13 +17,16 @@ class Car {
 };
 
 /*
- * To create a specific person, we use the new keyword (instances)
+ * To create a specific car, we use the new keyword (instances)
  */
-let car1 = new Car (); // instance of class Person
-let car2 = new Car (); // instance of class Person
+let car1 = new Car (); // instance of class Car
+let car2 = new Car (); // instance of class Car
 
 // Testing the instance of the class
 console.log (car1 instanceof Car);
 console.log (car1 instanceof Array);
 
+console.log (car1.userGear);
+car1.shift ('D');
+console.log (car1.userGear);
 
