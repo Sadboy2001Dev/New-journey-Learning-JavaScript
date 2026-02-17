@@ -26,3 +26,17 @@ let nelma = new Person ('Nelma', 35);
 console.log (gil.id);
 console.log (ana.id);
 console.log (nelma.id);
+
+class   Utility {
+
+        static  numberRandom () { // <- static method
+                return Math.floor (Math.random () * 100)                          }
+
+        static  celciusToFahrenheit (celcius) {
+                const   fahrenheit = (celcius * (9/5)) + 32
+                return  fahrenheit.toFixed (2)
+        }
+};
+
+console.log ('Random number: ' + Utility.numberRandom ());
+console.log ('Fahrenheit = ' + Utility.celciusToFahrenheit (60) + 'ºF');
