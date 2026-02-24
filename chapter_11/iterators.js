@@ -24,3 +24,17 @@ console.log (it.next ());
 console.log (it.next ());
 console.log (it.next ());
 console.log (it.next ());
+console.log (it.next ());
+
+/*
+ * next gives us the last page in the book, it tells us we’re not done.
+ * This is where the book analogy breaks down a little bit: when you read 
+ * the last page of a book, you’re done, right?
+ * Iterators can be used for more than books, and knowing when you’re dono
+ * is not always so simple.
+ * -----
+ * When you are done, note that value is undefined, and also note that
+ * you can keep calling next, and it’s going to keep telling you the
+ * same thing. Once an iterator is done, it’s done, and it shouldn’t ever 
+ * go back to providing you data.
+ */
